@@ -21,7 +21,7 @@ Using AI for real work raises connected questions: Where do the materials go? Wh
 Use it for self-study, teach selected sections, or adapt the slides, script, and examples. The repository also shares the production method so you can start a new course from your own sources.
 
 <table>
-<tr><td align="center"><strong>109 slides</strong><br>Two editions with speaker notes</td><td align="center"><strong>48 pages</strong><br>Teaching script</td><td align="center"><strong>71 pages</strong><br>Student handbook</td><td align="center"><strong>66 SVGs</strong><br>Original diagrams with PNGs</td></tr>
+<tr><td align="center"><strong>109 slides</strong><br>Two editions with speaker notes</td><td align="center"><strong>47 pages</strong><br>Teaching script</td><td align="center"><strong>74 pages</strong><br>Student handbook</td><td align="center"><strong>Source materials</strong><br>Text, narration, and cited assets</td></tr>
 </table>
 
 **On this page**　[Quick start](#quick-start) · [Gallery](#gallery) · [Curriculum](#curriculum) · [Downloads](#downloads) · [Teaching Skill](#skill) · [Repository map](#structure) · [FAQ](#faq) · [Status](#status) · [Contributing](#contributing) · [License & credits](#license)
@@ -43,7 +43,7 @@ Reading and adapting the course do not require a particular AI product. Models, 
 <a id="gallery"></a>
 ## Gallery
 
-These images come from the public edition and its original asset archive. Click any image for full resolution. The first row compares the same content in the two slide editions.
+The cover and previews are taken directly from the original v6 slides, preserving their layouts, illustrations, and cited images. Click any image for full resolution.
 
 <table>
 <tr>
@@ -52,7 +52,7 @@ These images come from the public edition and its original asset archive. Click 
 </tr>
 <tr>
 <td width="50%"><a href="assets/readme/preview-writing-plans.jpg"><img src="assets/readme/preview-writing-plans.jpg" alt="Visual edition, slide 86: the purpose and use of Writing Plans"></a><br><strong>Explaining a method · Slide 86</strong><br>What it is, why it helps, and how to begin</td>
-<td width="50%"><a href="assets/readme/preview-diagram.png"><img src="assets/readme/preview-diagram.png" alt="Original MCP teaching diagram used on slide 17"></a><br><strong>Original asset · Slide 17</strong><br>Editable SVG source; a teaching diagram, not a product screenshot</td>
+<td width="50%"><a href="assets/readme/preview-mcp.jpg"><img src="assets/readme/preview-mcp.jpg" alt="Original visual edition, slide 17: MCP concepts and the official diagram"></a><br><strong>Original course · Slide 17</strong><br>The MCP official diagram and source reference used in the lesson</td>
 </tr>
 </table>
 
@@ -76,19 +76,21 @@ The workspaces and projects discussed are examples, not dependencies of this rep
 <a id="downloads"></a>
 ## Downloads and versions
 
-**Public release: v1.0.0.** Use the seven matching attachments together. PPTX / DOCX files are for editing, PDFs for reading, and the source archive for course text, narration, references, and original diagrams.
+**Original-course release: v1.1.0.** Use the seven matching attachments together. PPTX / DOCX files are for editing, PDFs for reading, and the source archive for course text, narration, references, and the assets used in the original course.
 
 | Material | Direct download | Size / length | Notes |
 | --- | --- | --- | --- |
-| Visual slides | [PPTX][visual-pptx] · [PDF][visual-pdf] | 109 slides; 13.70 / 16.05 MiB | Presentation edition; PPTX includes notes. Some backgrounds are full-slide images |
-| Text-editable slides | [PPTX][editable-pptx] · [PDF][editable-pdf] | 109 slides; 0.60 / 3.17 MiB | Best for substantial edits; primarily native text and shapes |
-| Teaching script | [DOCX][lecture] | 48 pages; 0.09 MiB | Narration, explanations, and transitions |
-| Student handbook | [DOCX][handbook] | 71 pages; 2.89 MiB | Review and reference |
-| Content and original assets | [ZIP][source-zip] | 3.37 MiB | Markdown / JSON text, narration, and sources; 66 SVGs with PNGs |
+| Visual slides | [PPTX][visual-pptx] · [PDF][visual-pdf] | 109 slides; 17.99 / 18.50 MiB | Presentation edition; PPTX includes notes. Some backgrounds are full-slide images |
+| Text-editable slides | [PPTX][editable-pptx] · [PDF][editable-pdf] | 109 slides; 6.58 / 7.28 MiB | Best for substantial edits; primarily native text and shapes |
+| Teaching script | [DOCX][lecture] | 47 pages; 0.09 MiB | Narration, explanations, and transitions |
+| Student handbook | [DOCX][handbook] | 74 pages; 6.26 MiB | Review and reference |
+| Course content and sources | [ZIP][source-zip] | 13.40 MiB | Markdown / JSON text, narration, references; 77 course assets and 3 visual references |
+
+This edition preserves the original course files rather than redrawing third-party images. Their inclusion does not grant a new license; check the relevant rights before extracting or redistributing them.
 
 [Release notes][release] · [All versions](https://github.com/qihangzhang-272/ai-native-teaching-kit/releases) · [Distribution guide](releases/README.md)
 
-> **Two different ZIPs:** GitHub's automatically generated **Source code (zip)** is a repository snapshot. It does not contain the seven course attachments. For editable course text and diagrams, choose **Content and original assets** above. DOCX page counts can vary with the reader, fonts, and layout environment.
+> **Two different ZIPs:** GitHub's automatically generated **Source code (zip)** is a repository snapshot. It does not contain the seven course attachments. For editable course text and cited assets, choose **Course content and sources** above. DOCX page counts can vary with the reader, fonts, and layout environment.
 
 Cloning the repository downloads the indexes, Skill, and documentation; it does not automatically download the PPTX, PDF, or DOCX attachments.
 
@@ -183,7 +185,7 @@ ai-native-teaching-kit/
 └── LICENSE-SCOPE.md              # Scope of text and asset permissions
 ```
 
-The content archive separately contains Chinese-named files for course text, narration, and source indexes in Markdown / JSON, plus an original-diagram directory. Changing those sources does not automatically update text baked into images; check the slides and exports as well.
+The content archive separately contains Chinese-named files for course text, narration, and source indexes in Markdown / JSON, plus the original-course assets and page-mapping records. Changing those sources does not automatically update text baked into images; check the slides and exports as well.
 
 <a id="faq"></a>
 ## Frequently asked questions
@@ -226,14 +228,14 @@ MIT and CC BY 4.0 permit use and adaptation, including commercial use, for the c
 <details>
 <summary><strong>Are the product images actual screenshots?</strong></summary>
 
-Third-party screenshots, book pages, artwork, and portraits of named authors from the earlier edition have been replaced with original teaching diagrams. Source links remain. Illustrations labeled as teaching diagrams explain relationships; they are not evidence of a real interface, execution result, or performance benchmark.
+This edition retains the product screenshots, official diagrams, book pages, artwork, and author portraits used in the original course, alongside its illustrations. Read each image with its caption and source. Screenshots reflect the version captured and are not proof of the current interface or performance.
 
 </details>
 
 <details>
 <summary><strong>Is there an English course or a one-command course generator?</strong></summary>
 
-The README and setup guide are bilingual. The course, script, handbook, and Skill are primarily in Chinese. The repository does not include a one-command rebuild script or the personal character's master artwork. The Skill supplies a method; results depend on sources, tools, and review.
+The README and setup guide are bilingual. The course, script, handbook, and Skill are primarily in Chinese. The repository does not include a one-command rebuild script. The Skill supplies a method; results depend on sources, tools, and review.
 
 </details>
 
@@ -242,8 +244,8 @@ The README and setup guide are bilingual. The course, script, handbook, and Skil
 
 | Area | Current state |
 | --- | --- |
-| Course | v1.0.0 public edition: five modules, 109 slides, two slide formats |
-| Supporting materials | Teaching script, student handbook, course text, and original asset archive |
+| Course | v1.1.0 original course: five modules, 109 slides, two slide formats |
+| Supporting materials | Teaching script, student handbook, course text, and original-course asset archive |
 | Production method | Standalone Skill with reference documents; no marketplace package |
 | Languages | Bilingual README and setup guide; mostly Chinese course content |
 | Product currency | Reflects the course's version context; verify current product details at their sources |
@@ -268,8 +270,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the workflow and a copyable issue tem
 | --- | --- |
 | Original project Skill and code | [MIT](LICENSE) |
 | Original teaching text with confirmed ownership | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): credit the author, link the source and license, indicate changes |
-| Personal characters, mixed-content slides, and original diagrams | See [LICENSE-SCOPE.md](LICENSE-SCOPE.md) and the notes included in each package |
-| Third-party methods, quotations, trademarks, fonts, and external works | Their respective rights and licenses remain; a source link does not grant redistribution rights |
+| Personal characters and mixed-content course files | See [LICENSE-SCOPE.md](LICENSE-SCOPE.md) and the notes included in each package |
+| Third-party images, book pages, portraits, quotations, trademarks, fonts, and external works | Their respective rights and licenses remain; they are not covered by this project’s MIT / CC BY license |
 
 Suggested credit: **张启航 / BLAZE, AI Native Teaching Kit**, with a link to this repository and a description of any changes.
 
@@ -277,11 +279,12 @@ Thanks to the authors and projects cited in the course, including [Anthropic Ski
 
 <p align="right"><a href="#top">Back to top ↑</a></p>
 
-[release]: https://github.com/qihangzhang-272/ai-native-teaching-kit/releases/tag/v1.0.0
-[visual-pptx]: https://github.com/qihangzhang-272/ai-native-teaching-kit/releases/download/v1.0.0/ai-native-teaching-kit-v1.0.0-visual-slides.pptx
-[visual-pdf]: https://github.com/qihangzhang-272/ai-native-teaching-kit/releases/download/v1.0.0/ai-native-teaching-kit-v1.0.0-visual-slides.pdf
-[editable-pptx]: https://github.com/qihangzhang-272/ai-native-teaching-kit/releases/download/v1.0.0/ai-native-teaching-kit-v1.0.0-editable-slides.pptx
-[editable-pdf]: https://github.com/qihangzhang-272/ai-native-teaching-kit/releases/download/v1.0.0/ai-native-teaching-kit-v1.0.0-editable-slides.pdf
-[lecture]: https://github.com/qihangzhang-272/ai-native-teaching-kit/releases/download/v1.0.0/ai-native-teaching-kit-v1.0.0-lecture-notes.docx
-[handbook]: https://github.com/qihangzhang-272/ai-native-teaching-kit/releases/download/v1.0.0/ai-native-teaching-kit-v1.0.0-student-handbook.docx
-[source-zip]: https://github.com/qihangzhang-272/ai-native-teaching-kit/releases/download/v1.0.0/ai-native-teaching-kit-v1.0.0-original-content-and-assets.zip
+[release]: https://github.com/qihangzhang-272/ai-native-teaching-kit/releases/tag/v1.1.0
+[visual-pptx]: https://github.com/qihangzhang-272/ai-native-teaching-kit/releases/download/v1.1.0/ai-native-teaching-kit-v1.1.0-visual-slides.pptx
+[visual-pdf]: https://github.com/qihangzhang-272/ai-native-teaching-kit/releases/download/v1.1.0/ai-native-teaching-kit-v1.1.0-visual-slides.pdf
+[editable-pptx]: https://github.com/qihangzhang-272/ai-native-teaching-kit/releases/download/v1.1.0/ai-native-teaching-kit-v1.1.0-editable-slides.pptx
+[editable-pdf]: https://github.com/qihangzhang-272/ai-native-teaching-kit/releases/download/v1.1.0/ai-native-teaching-kit-v1.1.0-editable-slides.pdf
+[lecture]: https://github.com/qihangzhang-272/ai-native-teaching-kit/releases/download/v1.1.0/ai-native-teaching-kit-v1.1.0-lecture-notes.docx
+[handbook]: https://github.com/qihangzhang-272/ai-native-teaching-kit/releases/download/v1.1.0/ai-native-teaching-kit-v1.1.0-student-handbook.docx
+[source-zip]: https://github.com/qihangzhang-272/ai-native-teaching-kit/releases/download/v1.1.0/ai-native-teaching-kit-v1.1.0-original-content-and-assets.zip
+

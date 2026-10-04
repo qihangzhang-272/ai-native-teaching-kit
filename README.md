@@ -21,7 +21,7 @@
 你可以直接拿它学习或授课，也可以修改课件、讲稿与示例。仓库同时开放制作这些材料的方法，帮助你从自己的原始资料开始做下一门课。
 
 <table>
-<tr><td align="center"><strong>109 页</strong><br>两版课件，同步讲者备注</td><td align="center"><strong>48 页</strong><br>配套讲课稿</td><td align="center"><strong>71 页</strong><br>学生参考手册</td><td align="center"><strong>66 份 SVG</strong><br>原创教学示意及 PNG</td></tr>
+<tr><td align="center"><strong>109 页</strong><br>两版课件，同步讲者备注</td><td align="center"><strong>47 页</strong><br>配套讲课稿</td><td align="center"><strong>74 页</strong><br>学生参考手册</td><td align="center"><strong>源材料</strong><br>正文、口播与引用素材</td></tr>
 </table>
 
 **导航**　[快速开始](#quick-start) · [成品预览](#gallery) · [课程地图](#curriculum) · [下载与版本](#downloads) · [教学 Skill](#skill) · [目录](#structure) · [FAQ](#faq) · [项目状态](#status) · [贡献](#contributing) · [许可与致谢](#license)
@@ -43,7 +43,7 @@
 <a id="gallery"></a>
 ## 成品预览
 
-下图来自公开版成品与原创素材包。点击可查看原尺寸；同页的两种课件形态也能直接比较。
+封面和下图均直接取自原版 v6 课件，保留原有版式、插画与引用图片。点击可查看原尺寸。
 
 <table>
 <tr>
@@ -52,7 +52,7 @@
 </tr>
 <tr>
 <td width="50%"><a href="assets/readme/preview-writing-plans.jpg"><img src="assets/readme/preview-writing-plans.jpg" alt="视觉版第86页：Writing Plans 的定义、用途和起步方法"></a><br><strong>方法讲解 · 第 86 页</strong><br>解释是什么、为什么有用、怎样开始</td>
-<td width="50%"><a href="assets/readme/preview-diagram.png"><img src="assets/readme/preview-diagram.png" alt="源素材包中用于第17页的MCP原创教学示意"></a><br><strong>原创源素材 · 第 17 页配图</strong><br>SVG 可继续编辑；示意图不冒充真实产品界面</td>
+<td width="50%"><a href="assets/readme/preview-mcp.jpg"><img src="assets/readme/preview-mcp.jpg" alt="原版视觉教学版第17页：MCP概念与官方示意图"></a><br><strong>原版课件 · 第 17 页</strong><br>保留课程使用的 MCP 官方示意图与来源</td>
 </tr>
 </table>
 
@@ -76,19 +76,21 @@
 <a id="downloads"></a>
 ## 下载与版本
 
-**公开发行版：v1.0.0。** 七个附件应配套使用。PPTX / DOCX 用于修改，PDF 用于阅读；源 ZIP 提供正文、口播、来源和原创示意图。
+**原版发行版：v1.1.0。** 七个附件应配套使用。PPTX / DOCX 用于修改，PDF 用于阅读；源 ZIP 提供正文、口播、来源与原版使用的素材。
 
 | 材料 | 直接下载 | 规模 | 使用提示 |
 | --- | --- | --- | --- |
-| 视觉教学版 | [PPTX][visual-pptx] · [PDF][visual-pdf] | 109 页；13.70 / 16.05 MiB | 适合展示。PPTX 带讲者备注，部分背景为整页图像 |
-| 文字可编辑版 | [PPTX][editable-pptx] · [PDF][editable-pdf] | 109 页；0.60 / 3.17 MiB | 大幅修改时优先使用；以原生文字和图形为主 |
-| 讲课稿 | [DOCX][lecture] | 48 页；0.09 MiB | 完整口播、解释与转场 |
-| 学生参考手册 | [DOCX][handbook] | 71 页；2.89 MiB | 课后阅读与查阅 |
-| 内容与原创素材 | [ZIP][source-zip] | 3.37 MiB | Markdown / JSON 正文、口播、来源；66 份 SVG 及 PNG |
+| 视觉教学版 | [PPTX][visual-pptx] · [PDF][visual-pdf] | 109 页；17.99 / 18.50 MiB | 适合展示。PPTX 带讲者备注，部分背景为整页图像 |
+| 文字可编辑版 | [PPTX][editable-pptx] · [PDF][editable-pdf] | 109 页；6.58 / 7.28 MiB | 大幅修改时优先使用；以原生文字和图形为主 |
+| 讲课稿 | [DOCX][lecture] | 47 页；0.09 MiB | 完整口播、解释与转场 |
+| 学生参考手册 | [DOCX][handbook] | 74 页；6.26 MiB | 课后阅读与查阅 |
+| 课程内容与来源 | [ZIP][source-zip] | 13.40 MiB | Markdown / JSON 正文、口播、来源；77 件课程素材与 3 份视觉参考 |
+
+本版按原课文件提供，不重绘第三方图片。第三方材料不因随包公开而获得本项目许可，单独提取或再分发前请核对相应权利。
 
 [查看本次发布][release] · [查看所有版本](https://github.com/qihangzhang-272/ai-native-teaching-kit/releases) · [分发说明](releases/README.md)
 
-> **注意两种 ZIP：** GitHub 自动生成的 **Source code (zip)** 是仓库快照，不含七个课件附件。需要正文与原创素材，请选择上表中的 **内容与原创素材 ZIP**。DOCX 页数随阅读软件、字体和排版环境可能变化。
+> **注意两种 ZIP：** GitHub 自动生成的 **Source code (zip)** 是仓库快照，不含七个课件附件。需要正文与引用素材，请选择上表中的 **课程内容与来源 ZIP**。DOCX 页数随阅读软件、字体和排版环境可能变化。
 
 仓库与附件分开分发：克隆仓库能得到课程索引、Skill 和说明，但不会自动下载 PPT、PDF 和 DOCX。
 
@@ -182,7 +184,7 @@ ai-native-teaching-kit/
 └── LICENSE-SCOPE.md              # 教学文字与素材的许可范围
 ```
 
-源素材 ZIP 内另有 `学生正文`、`完整口播`、`公开来源索引` 的 Markdown / JSON，以及 `原创示意/`。修改源文字不会自动更新已烘焙进图片的文字；请同步检查课件和导出文件。
+源 ZIP 内有 `学生正文`、`完整口播`、`公开来源索引` 的 Markdown / JSON，以及原版的素材与页面对应记录。修改源文字不会自动更新已烘焙进图片的文字；请同步检查课件和导出文件。
 
 <a id="faq"></a>
 ## 常见问题
@@ -225,14 +227,14 @@ MIT 与 CC BY 4.0 分别允许其覆盖内容的使用和改编，包括商业�
 <details>
 <summary><strong>图片是产品的真实截图吗？</strong></summary>
 
-公开版已将原版中的第三方截图、书页、作品图和具名作者肖像替换为原创教学示意，并保留阅读来源。标注“教学示意”的画面用于解释关系，不能据此判断实际界面、运行结果或性能。
+本版本保留原课中的产品截图、官方图表、书页、作品图与作者肖像，也包含课程插画。每类图片应结合图注和原始来源阅读；截图反映其采集时的版本，不能直接当作当前界面或性能证明。
 
 </details>
 
 <details>
 <summary><strong>有英文课程或一键生成整套课的脚本吗？</strong></summary>
 
-当前 README 和安装指南提供中英两版；课程正文、讲稿、手册与 Skill 以中文为主。本仓库没有一键重建全部课件的脚本，也不附带个人角色母版。Skill 提供方法，具体产出依赖材料、工具与检查。
+当前 README 和安装指南提供中英两版；课程正文、讲稿、手册与 Skill 以中文为主。本仓库没有一键重建全部课件的脚本。Skill 提供方法，具体产出依赖材料、工具与检查。
 
 </details>
 
@@ -241,8 +243,8 @@ MIT 与 CC BY 4.0 分别允许其覆盖内容的使用和改编，包括商业�
 
 | 范围 | 当前状态 |
 | --- | --- |
-| 课程 | v1.0.0 公开版，五个模块、109 页，两种课件形态 |
-| 配套材料 | 讲课稿、学生手册、正文与原创素材包 |
+| 课程 | v1.1.0 原版，五个模块、109 页，两种课件形态 |
+| 配套材料 | 讲课稿、学生手册、正文与原版素材包 |
 | 制作方法 | 独立 Skill + 参考文档；无插件市场包 |
 | 语言 | README 与安装指南中英双版；课程材料主要为中文 |
 | 产品时效 | 保留课程版本背景，实际使用前按来源核对 |
@@ -267,8 +269,8 @@ MIT 与 CC BY 4.0 分别允许其覆盖内容的使用和改编，包括商业�
 | --- | --- |
 | 本项目原创 Skill 与代码 | [MIT](LICENSE) |
 | 已确认权属的原创教学文字 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)：署名、链接来源及许可、说明修改 |
-| 个人角色、混合课件与原创图示 | 依据[许可范围](LICENSE-SCOPE.md)及附件中的使用说明 |
-| 第三方方法、引用、商标、字体与外部作品 | 保留各自权利与许可，来源链接不自动赋予再分发权 |
+| 个人角色与混合内容课件 | 依据[许可范围](LICENSE-SCOPE.md)及附件中的使用说明 |
+| 第三方图片、书页、肖像、引用、商标、字体与外部作品 | 保留各自权利与许可，不纳入本项目的 MIT / CC BY 授权 |
 
 建议署名：**张启航 / BLAZE，AI Native Teaching Kit**，附本仓库链接；有修改时说明改动。
 
@@ -276,11 +278,12 @@ MIT 与 CC BY 4.0 分别允许其覆盖内容的使用和改编，包括商业�
 
 <p align="right"><a href="#top">回到顶部 ↑</a></p>
 
-[release]: https://github.com/qihangzhang-272/ai-native-teaching-kit/releases/tag/v1.0.0
-[visual-pptx]: https://github.com/qihangzhang-272/ai-native-teaching-kit/releases/download/v1.0.0/ai-native-teaching-kit-v1.0.0-visual-slides.pptx
-[visual-pdf]: https://github.com/qihangzhang-272/ai-native-teaching-kit/releases/download/v1.0.0/ai-native-teaching-kit-v1.0.0-visual-slides.pdf
-[editable-pptx]: https://github.com/qihangzhang-272/ai-native-teaching-kit/releases/download/v1.0.0/ai-native-teaching-kit-v1.0.0-editable-slides.pptx
-[editable-pdf]: https://github.com/qihangzhang-272/ai-native-teaching-kit/releases/download/v1.0.0/ai-native-teaching-kit-v1.0.0-editable-slides.pdf
-[lecture]: https://github.com/qihangzhang-272/ai-native-teaching-kit/releases/download/v1.0.0/ai-native-teaching-kit-v1.0.0-lecture-notes.docx
-[handbook]: https://github.com/qihangzhang-272/ai-native-teaching-kit/releases/download/v1.0.0/ai-native-teaching-kit-v1.0.0-student-handbook.docx
-[source-zip]: https://github.com/qihangzhang-272/ai-native-teaching-kit/releases/download/v1.0.0/ai-native-teaching-kit-v1.0.0-original-content-and-assets.zip
+[release]: https://github.com/qihangzhang-272/ai-native-teaching-kit/releases/tag/v1.1.0
+[visual-pptx]: https://github.com/qihangzhang-272/ai-native-teaching-kit/releases/download/v1.1.0/ai-native-teaching-kit-v1.1.0-visual-slides.pptx
+[visual-pdf]: https://github.com/qihangzhang-272/ai-native-teaching-kit/releases/download/v1.1.0/ai-native-teaching-kit-v1.1.0-visual-slides.pdf
+[editable-pptx]: https://github.com/qihangzhang-272/ai-native-teaching-kit/releases/download/v1.1.0/ai-native-teaching-kit-v1.1.0-editable-slides.pptx
+[editable-pdf]: https://github.com/qihangzhang-272/ai-native-teaching-kit/releases/download/v1.1.0/ai-native-teaching-kit-v1.1.0-editable-slides.pdf
+[lecture]: https://github.com/qihangzhang-272/ai-native-teaching-kit/releases/download/v1.1.0/ai-native-teaching-kit-v1.1.0-lecture-notes.docx
+[handbook]: https://github.com/qihangzhang-272/ai-native-teaching-kit/releases/download/v1.1.0/ai-native-teaching-kit-v1.1.0-student-handbook.docx
+[source-zip]: https://github.com/qihangzhang-272/ai-native-teaching-kit/releases/download/v1.1.0/ai-native-teaching-kit-v1.1.0-original-content-and-assets.zip
+
