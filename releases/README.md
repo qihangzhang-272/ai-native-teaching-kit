@@ -1,41 +1,45 @@
-# 公开版交付与分发
+# 原版课程交付与分发
 
-文本与技能已经公开。七件独立公开版文件已制作、通过检验并完成 Release 上传。附件下载以[正式发布的 Release](https://github.com/qihangzhang-272/ai-native-teaching-kit/releases)为准；本页只列公开版交付内容，不提供未发布草稿的下载地址。
+v1.1.0 按原版 v6 文件分发，保留课程原有版式、插画、第三方引用图片和来源。七件文件配套使用，下载入口为 [v1.1.0 Release](https://github.com/qihangzhang-272/ai-native-teaching-kit/releases/tag/v1.1.0)。
 
 ## 七件交付文件
 
 | 文件名 | 内容 | 大小（字节） |
 | --- | --- | ---: |
-| `ai-native-teaching-kit-v1.0.0-visual-slides.pptx` | 视觉教学版，109 页 | 14,369,185 |
-| `ai-native-teaching-kit-v1.0.0-visual-slides.pdf` | 视觉教学版，109 页 | 16,834,677 |
-| `ai-native-teaching-kit-v1.0.0-editable-slides.pptx` | 文字可编辑版，109 页 | 633,721 |
-| `ai-native-teaching-kit-v1.0.0-editable-slides.pdf` | 文字可编辑版，109 页 | 3,321,783 |
-| `ai-native-teaching-kit-v1.0.0-lecture-notes.docx` | 讲课稿 | 97,895 |
-| `ai-native-teaching-kit-v1.0.0-student-handbook.docx` | 学生参考手册 | 3,034,065 |
-| `ai-native-teaching-kit-v1.0.0-original-content-and-assets.zip` | 课程内容与原创素材 | 3,530,337 |
+| `ai-native-teaching-kit-v1.1.0-visual-slides.pptx` | 视觉教学版，109 页 | 18,867,906 |
+| `ai-native-teaching-kit-v1.1.0-visual-slides.pdf` | 视觉教学版，109 页 | 19,400,922 |
+| `ai-native-teaching-kit-v1.1.0-editable-slides.pptx` | 文字可编辑版，109 页 | 6,903,410 |
+| `ai-native-teaching-kit-v1.1.0-editable-slides.pdf` | 文字可编辑版，109 页 | 7,636,302 |
+| `ai-native-teaching-kit-v1.1.0-lecture-notes.docx` | 讲课稿，47 页 | 98,620 |
+| `ai-native-teaching-kit-v1.1.0-student-handbook.docx` | 学生参考手册，74 页 | 6,566,716 |
+| `ai-native-teaching-kit-v1.1.0-original-content-and-assets.zip` | 课程内容、来源与原版素材 | 14,047,495 |
 
-视觉版用于投影和整页阅读，文字可编辑版用于修改正文、备注及来源链接。讲课稿补充口述展开与转场，学生参考手册用于课后阅读，内容包用于复用课程内容和纳入公开范围的原创素材。
+视觉版用于投影和整页阅读；文字可编辑版用于修改正文、备注及来源链接。讲课稿补充口述展开与转场，学生参考手册用于课后阅读。DOCX 的分页可能随字体和阅读软件变化。
 
-这些文件是独立整理的公开版。原 v6 课件、原始素材包和其他未纳入公开范围的文件完整保留，不作为 Release 附件。
+源 ZIP 包含 Markdown / JSON 正文、口播、来源索引、页面与素材对应记录，以及 77 件课程素材和 3 份个人视觉参考。素材涵盖原图、裁片、兼容图和插画，并非全部为本项目原创。
 
-公开版保留原创正文、布局及已允许的作者视觉，排除第三方图片和头像，以独立设计的原创教学示意替换必要图层，并保留来源链接。生成的示意不标为真实界面、作者原图或实测结果。具体范围见 [许可说明](../LICENSE-SCOPE.md) 与附件中的素材说明。
+## 版本与许可
+
+v1.1.0 是原版课程分发；v1.0.0 是此前采用替换图的重绘整理版。两者分别使用各自附件、预览、页数和校验值，不混用。v1.1.0 的七个附件仅更换分发文件名，保留选定原版文件内容。
+
+原版中的第三方截图、图表、书页、作品图、肖像、引文和商标仍保留各自权利，不因随课公开而纳入本项目 MIT 或 CC BY 授权。具体边界见 [许可范围](../LICENSE-SCOPE.md)；源 ZIP 内原有引用说明与来源记录一并保留。
 
 ## 下载校验
 
-以下 SHA-256 来自已上传附件的元数据，可用于核对下载文件。
+以下 SHA-256 对应本版七件文件：
 
 ```text
-5b08b4845e49991576c8dbabd072678d72604d3dbec9926dd64d933f0a35b87e  ai-native-teaching-kit-v1.0.0-visual-slides.pptx
-90c6dc71e1105594761733b1b9cc3e0cf93bd2db65f9fd6266394a53617bb0ca  ai-native-teaching-kit-v1.0.0-visual-slides.pdf
-e23abd64dc606b667ed224dbdf0509d1c9343168f655986a9f0282f938b38eeb  ai-native-teaching-kit-v1.0.0-editable-slides.pptx
-3664f0d056a2dd4c82c7e52256c7b04c3c1dca3c233424896cb449ada958bba6  ai-native-teaching-kit-v1.0.0-editable-slides.pdf
-c291968793b006c00def6337779a23095e82009163ef84d08e324ad8158e8d03  ai-native-teaching-kit-v1.0.0-lecture-notes.docx
-2cb11b8e3d623e544fca79abe1ee9bfb3e778a2de071829ae3158370e7e85de4  ai-native-teaching-kit-v1.0.0-student-handbook.docx
-70b31661224ab9627fddcf7952479caa3b5b240747812decd6ec63cc97fc8731  ai-native-teaching-kit-v1.0.0-original-content-and-assets.zip
+410fa6099bc9b20bf73c4498b3d44c805b62976ffd2b46fddf40cbc8a8da71e5  ai-native-teaching-kit-v1.1.0-visual-slides.pptx
+f0745863c3c3e1c9333b899ab9f7ff68431874d607d79113186157f1727d1217  ai-native-teaching-kit-v1.1.0-visual-slides.pdf
+5c9f320a26543f9cc5b57cfb04b5d995011cc1473449867d0a4af63f140da1ff  ai-native-teaching-kit-v1.1.0-editable-slides.pptx
+654a292479ecab6b91081538106476e6ed7187da21b7b92e57ad781856dc4772  ai-native-teaching-kit-v1.1.0-editable-slides.pdf
+33889010a50c08930c6a15bcc1c058267d84b7d76b91ceddd330d3d6a7540d5e  ai-native-teaching-kit-v1.1.0-lecture-notes.docx
+b51920a913548f5cc9887a7c776a144f5a81c13fd8d609f554f4eee77d541082  ai-native-teaching-kit-v1.1.0-student-handbook.docx
+9a59007ec9dc3a8ac6828489a8b8b6f4b589d05a516a5178048815165124c2e7  ai-native-teaching-kit-v1.1.0-original-content-and-assets.zip
 ```
 
-## 按版本配套使用
+## 按版本使用
 
-同一 Release 的 PPTX、PDF、讲稿、手册与内容包配套使用，避免混入原版或其他版本。发布后核对七件附件能正常下载和打开，见 [发布检查清单](../RELEASE-CHECKLIST.md)。
+GitHub 自动生成的 Source code 压缩包是仓库快照，不含课程二进制附件。请从 Release 的 Assets 区选择上述七件文件，按需要下载。
 
-仓库跟踪文本、来源、技能和经过审核的预览，课程二进制放在版本化 Release 中，方便读者按需下载并减少 Git 历史负担。当前采用这一分发方式，无需引入 LFS。[GitHub 大文件说明](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github)、[Release 说明](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases)。
+仓库跟踪文本、来源、技能与预览，PPTX、PDF、DOCX 和课程源 ZIP 放在 Release 中。发布后应逐件核对下载、格式与哈希，见[检查清单](../RELEASE-CHECKLIST.md)。
