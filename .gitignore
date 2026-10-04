@@ -1,0 +1,35 @@
+# Private source material, temporary builds and connector metadata
+/private-work/
+/_private/
+/inputs/
+/build/
+/dist/
+/.cache/
+/.codex/
+/.agents/
+/.skills/
+**/__pycache__/
+*.pyc
+*.tmp
+*.log
+.env
+.env.*
+*transfer*.json
+*material-inventory*.json
+
+# Course binaries belong in reviewed Release attachments
+*.ppt
+*.pptx
+*.pdf
+*.doc
+*.docx
+*.zip
+*.7z
+*.rar
+*.exe
+
+# Prevent accidental inclusion of raw or personal asset collections
+/raw/
+/originals/
+/素材/
+/个人视觉参考/
