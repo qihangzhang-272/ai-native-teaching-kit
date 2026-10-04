@@ -1,29 +1,41 @@
-# 课件版本与分发草案
+# 公开版交付与分发
 
-当前没有公开 Release 或可下载课件。这里记录已解析的输入元数据与分发建议，实际文件尚未成功落地，不包含实测 SHA-256。
+文本与技能已经公开。七件独立公开版文件已制作、通过检验并完成 Release 上传。附件下载以[正式发布的 Release](https://github.com/qihangzhang-272/ai-native-teaching-kit/releases)为准；本页只列公开版交付内容，不提供未发布草稿的下载地址。
 
-| 输入文件 | Library 当前版本号 | 返回大小（字节） | 当前安排 |
-| --- | --- | ---: | --- |
-| AI原生科研教学_v6_视觉教学版.pptx | 6 | 18,867,906 | 私有，待逐页与权利审核 |
-| AI原生科研教学_v6_视觉教学版.pdf | 6 | 19,400,922 | 私有，待逐页与权利审核 |
-| AI原生科研教学_v6_文字可编辑版.pptx | 5 | 6,903,410 | 文件名为 v6，内部记录版本 5，待复核 |
-| AI原生科研教学_v6_文字可编辑版.pdf | 5 | 7,636,302 | 同上 |
-| AI原生科研教学_v6_讲课稿.docx | 5 | 98,620 | 同上 |
-| AI原生科研教学_v6_学生参考手册.docx | 5 | 6,566,716 | 同上 |
-| 课程内容与来源_可编辑.zip | 4 | 14,047,495 | 原素材包保持私有，不能整体套用 CC 许可 |
+## 七件交付文件
 
-课程的 v6 标签与 Library 的文件历史版本号是两种记录，应同时保留。旧清单中的约 38/39 MB 视觉文件不能代替本次 18/19 MB 输入的字节校验。
+| 文件名 | 内容 | 大小（字节） |
+| --- | --- | ---: |
+| `ai-native-teaching-kit-v1.0.0-visual-slides.pptx` | 视觉教学版，109 页 | 14,369,185 |
+| `ai-native-teaching-kit-v1.0.0-visual-slides.pdf` | 视觉教学版，109 页 | 16,834,677 |
+| `ai-native-teaching-kit-v1.0.0-editable-slides.pptx` | 文字可编辑版，109 页 | 633,721 |
+| `ai-native-teaching-kit-v1.0.0-editable-slides.pdf` | 文字可编辑版，109 页 | 3,321,783 |
+| `ai-native-teaching-kit-v1.0.0-lecture-notes.docx` | 讲课稿 | 97,895 |
+| `ai-native-teaching-kit-v1.0.0-student-handbook.docx` | 学生参考手册 | 3,034,065 |
+| `ai-native-teaching-kit-v1.0.0-original-content-and-assets.zip` | 课程内容与原创素材 | 3,530,337 |
 
-## 推荐的简单方式
+视觉版用于投影和整页阅读，文字可编辑版用于修改正文、备注及来源链接。讲课稿补充口述展开与转场，学生参考手册用于课后阅读，内容包用于复用课程内容和纳入公开范围的原创素材。
 
-一个课程加技能仓库，Git 保存文本、来源、技能和经过审核的小预览。PPTX、PDF、DOCX 在允许发布时作为同一版本的 Release 附件，原始素材 ZIP 继续按逐文件权利决定处理。
+这些文件是独立整理的公开版。原 v6 课件、原始素材包和其他未纳入公开范围的文件完整保留，不作为 Release 附件。
 
-当前最大单文件约 19.4 MB，无需为了平台上限引入 LFS。GitHub 对普通 Git 超过 50 MiB 的文件提示警告，超过 100 MiB 阻止上传；Release 可以附带版本化二进制。[GitHub 大文件说明](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github)、[Release 说明](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases)。
+公开版保留原创正文、布局及已允许的作者视觉，排除第三方图片和头像，以独立设计的原创教学示意替换必要图层，并保留来源链接。生成的示意不标为真实界面、作者原图或实测结果。具体范围见 [许可说明](../LICENSE-SCOPE.md) 与附件中的素材说明。
 
-| 方式 | 优点 | 成本或适用边界 |
-| --- | --- | --- |
-| 文本入 Git，二进制进 Release | 克隆较小，文本差异可审阅，教师按版本下载 | 需维护文本提交与附件的一致版本 |
-| PPT/PDF 直接入 Git | 一个克隆即可取得课件 | 每次替换保留大文件历史，审阅差异有限 |
-| Git LFS | 适合必须跟踪频繁二进制修订的工作 | 增加客户端与存储管理，本次暂无必要 |
+## 下载校验
 
-发布附件应包含明确版本、实际校验值、变更说明、课程导览、来源以及许可范围。Release 只是分发方式，不改变第三方权利和个人素材授权要求。
+以下 SHA-256 来自已上传附件的元数据，可用于核对下载文件。
+
+```text
+5b08b4845e49991576c8dbabd072678d72604d3dbec9926dd64d933f0a35b87e  ai-native-teaching-kit-v1.0.0-visual-slides.pptx
+90c6dc71e1105594761733b1b9cc3e0cf93bd2db65f9fd6266394a53617bb0ca  ai-native-teaching-kit-v1.0.0-visual-slides.pdf
+e23abd64dc606b667ed224dbdf0509d1c9343168f655986a9f0282f938b38eeb  ai-native-teaching-kit-v1.0.0-editable-slides.pptx
+3664f0d056a2dd4c82c7e52256c7b04c3c1dca3c233424896cb449ada958bba6  ai-native-teaching-kit-v1.0.0-editable-slides.pdf
+c291968793b006c00def6337779a23095e82009163ef84d08e324ad8158e8d03  ai-native-teaching-kit-v1.0.0-lecture-notes.docx
+2cb11b8e3d623e544fca79abe1ee9bfb3e778a2de071829ae3158370e7e85de4  ai-native-teaching-kit-v1.0.0-student-handbook.docx
+70b31661224ab9627fddcf7952479caa3b5b240747812decd6ec63cc97fc8731  ai-native-teaching-kit-v1.0.0-original-content-and-assets.zip
+```
+
+## 按版本配套使用
+
+同一 Release 的 PPTX、PDF、讲稿、手册与内容包配套使用，避免混入原版或其他版本。发布后核对七件附件能正常下载和打开，见 [发布检查清单](../RELEASE-CHECKLIST.md)。
+
+仓库跟踪文本、来源、技能和经过审核的预览，课程二进制放在版本化 Release 中，方便读者按需下载并减少 Git 历史负担。当前采用这一分发方式，无需引入 LFS。[GitHub 大文件说明](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github)、[Release 说明](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases)。
