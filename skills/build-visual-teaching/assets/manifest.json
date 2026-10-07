@@ -1,0 +1,34 @@
+{
+  "source_release": "https://github.com/qihangzhang-272/ai-native-teaching-kit/releases/tag/v1.1.0",
+  "source_zip_sha256": "9a59007ec9dc3a8ac6828489a8b8b6f4b589d05a516a5178048815165124c2e7",
+  "files": [
+    {
+      "path": "assets/user-lecture-reference.jpg",
+      "source_entry": "课程内容与来源_可编辑/个人视觉参考/e15b09e2c9_user-lecture-reference.jpg",
+      "sha256": "e15b09e2c9c0517e6eab73ce4353fa37950d8e482208ad930725b84b5f4499eb",
+      "bytes": 309598
+    },
+    {
+      "path": "assets/writing-plans-personalized.png",
+      "source_entry": "课程内容与来源_可编辑/个人视觉参考/2faaee48ea_74-writing-plans-personalized-v2.png",
+      "sha256": "2faaee48ea43e951b3d3ef0f3a125a9dc45f8dde9d06e60f1ef6b193e95631e6",
+      "bytes": 1759934
+    },
+    {
+      "path": "assets/ladder-personalized.png",
+      "source_entry": "课程内容与来源_可编辑/个人视觉参考/d2118566b1_78-ladder-personalized-v2.png",
+      "sha256": "d2118566b17abe1fc873f1f379d57dab553f155cf985054f5d184015d2fc2db0",
+      "bytes": 2098809
+    },
+    {
+      "path": "examples/approved-slides.pptx",
+      "source_pptx_sha256": "410fa6099bc9b20bf73c4498b3d44c805b62976ffd2b46fddf40cbc8a8da71e5",
+      "source_slides": [
+        86,
+        90
+      ],
+      "sha256": "7b4c1b580a23c6146c82292e172db42e4b887e0a42d7ce2ef4fa4e20716ac375",
+      "bytes": 236897
+    }
+  ]
+}

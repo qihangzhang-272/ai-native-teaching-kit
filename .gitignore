@@ -28,6 +28,9 @@
 *.rar
 *.exe
 
+# Reviewed two-slide reference; full course binaries remain Release attachments
+!skills/build-visual-teaching/examples/approved-slides.pptx
+
 # Prevent accidental inclusion of raw or personal asset collections
 /raw/
 /originals/

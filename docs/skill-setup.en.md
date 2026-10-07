@@ -59,6 +59,14 @@ For Codex, the resulting structure should be:
 .agents/skills/build-visual-teaching/
 ├── SKILL.md
 ├── LICENSE
+├── assets/
+│   ├── README.md
+│   ├── manifest.json
+│   ├── user-lecture-reference.jpg
+│   ├── writing-plans-personalized.png
+│   └── ladder-personalized.png
+├── examples/
+│   └── approved-slides.pptx
 └── references/
     ├── teaching-depth.md
     ├── visual-benchmarks.md
@@ -73,7 +81,10 @@ In Codex CLI / IDE, use `$build-visual-teaching` or select it through `/skills`.
 Use build-visual-teaching, but do not modify or generate files yet.
 Report the SKILL.md path you actually read and identify the references
 covering teaching structure, source materials, and delivery checks.
-Then list the inputs you need to prepare one lesson section.
+Also open assets/user-lecture-reference.jpg, both approved PNGs, and
+examples/approved-slides.pptx relative to the loaded SKILL.md directory.
+Confirm the author and black bird references are readable, then list the
+subject materials still needed. Do not ask for the avatar already in the package.
 ```
 
 Check that the reported path is the version you intended. A discovered Skill name is not evidence of a successful production run. Test one section before relying on the setup for a full course.
@@ -86,7 +97,7 @@ Check that the reported path is the version you intended. A discovered Skill nam
 | Audience | Prior knowledge, learning goal, and setting |
 | Scope | One concept or section to start with |
 | Outputs | The formats you actually need: PPTX, PDF, script, Markdown, etc. |
-| Visual references | Permitted layouts, illustrations, or characters; say if a new baseline is needed |
+| Visual references | Use bundled assets/ and examples/ for this course; supply permitted references for other projects |
 | Checks | Sources, content, layout, notes, links, and final exported files |
 
 Adapt the [README example](../README.en.md#skill) with your own sources and audience. Do not assume that the course character artwork is an unrestricted general-purpose asset; consult the project's license scope.

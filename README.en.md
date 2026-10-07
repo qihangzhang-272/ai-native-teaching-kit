@@ -97,7 +97,7 @@ Cloning the repository downloads the indexes, Skill, and documentation; it does 
 <a id="skill"></a>
 ## Use the visual-teaching Skill
 
-`build-visual-teaching` is a directory of instructions and supporting references. It guides content decisions, source use, visual references, and delivery checks. Your host still needs the tools to generate images or export files.
+`build-visual-teaching` contains instructions, supporting references, and original visual assets. It guides content decisions, source use, visual references, and delivery checks. Your host still needs the tools to generate images or export files.
 
 ### 1. Get the repository
 
@@ -106,7 +106,7 @@ git clone https://github.com/qihangzhang-272/ai-native-teaching-kit.git
 cd ai-native-teaching-kit
 ```
 
-Without Git, use **Code → Download ZIP** and extract it. Read [SKILL.md](skills/build-visual-teaching/SKILL.md) first, and keep the complete directory, including `references/`.
+Without Git, use **Code → Download ZIP** and extract it. Read [SKILL.md](skills/build-visual-teaching/SKILL.md) first, and keep the complete directory, including `references/`, `assets/`, and `examples/`. The package includes the author’s avatar with the black bird, two approved reference images, and a two-slide subset of the original PPT. See the [asset guide](skills/build-visual-teaching/assets/README.md) for relative paths and usage scope, and the [packaging guide](releases/README.md#单独技能包) for a standalone ZIP.
 
 ### 2. Choose a loading method
 
@@ -155,7 +155,11 @@ Task: Create one lesson section that explains a key concept and its practical us
 First propose: questions to answer, sources to use, slide structure, and missing information.
 After confirmation: produce slides, a teaching script, and editable course text.
 Visuals: let the text carry the explanation; use images to support understanding.
-Follow the visual references I supply.
+Follow the bundled approved references and the visual references I supply.
+To reproduce this course persona, open assets/user-lecture-reference.jpg, the two PNGs,
+and examples/approved-slides.pptx relative to the loaded SKILL.md directory.
+Keep clean light backgrounds and clear contrast. Use the avatar for identity;
+do not copy its surrounding slogans, rough marks, or paper texture into new slides.
 Check: open the final exports and inspect text, images, sources, links, and notes.
 ```
 
@@ -175,7 +179,9 @@ ai-native-teaching-kit/
 ├── skills/build-visual-teaching/
 │   ├── SKILL.md                  # Reusable teaching-production method
 │   ├── references/               # Structure, sources, visuals, and checks
-│   └── LICENSE                   # MIT license for the Skill
+│   ├── assets/                   # Original avatar, black bird, two benchmarks
+│   ├── examples/approved-slides.pptx # Original course slides 86 and 90
+│   └── LICENSE                   # MIT license for the method text
 ├── docs/                         # Bilingual setup and troubleshooting
 ├── sources/                      # Source notes and reference list
 ├── assets/readme/                # Cover and public-edition previews

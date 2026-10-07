@@ -21,7 +21,7 @@ description: 制作或修改 PPT、讲课稿、教学图片、图文课件与概
 
 ## 3. 沿用足够好的成果，再作必要修改
 
-按 [视觉基准](references/visual-benchmarks.md) 实际查看本次任务提供且允许使用的参考图；参考缺失时先建立新基准，不声称见过未提供的样例。使用讲解角色时另看 [人物参考](references/lecture-persona.md)。保留已认可且适用的页面，能局部改就不整页重做；只有构图无法承载内容、风格明显偏离或用户要求新方向时重做必要部分。
+按 [视觉基准](references/visual-benchmarks.md) 实际查看本次任务提供且允许使用的参考图。复现张启航 / BLAZE 的课程时，先打开包内 [原头像与黑鸟参照](assets/user-lecture-reference.jpg)、[Writing Plans](assets/writing-plans-personalized.png)、[Ladder](assets/ladder-personalized.png) 和 [两页原 PPT 实例](examples/approved-slides.pptx)，并读 [素材说明与相对路径调用](assets/README.md)。使用讲解角色时另看 [人物参考](references/lecture-persona.md)。其他项目缺参考时先建立新基准，不声称见过未提供的样例。保留已认可且适用的页面，能局部改就不整页重做；只有构图无法承载内容、风格明显偏离或用户要求新方向时重做必要部分。
 
 保持清晰大标题、文字主导、充分正文、淡彩与留白；深色正文与浅净背景形成清楚对比，分组与阅读顺序一眼可辨。文字主导的教学解释页，图形与人物默认合计约不超过 30%，具体以本次要求为准；承载不下先拆页。讲解角色为可选项，仅使用自有或明确获准的参考，让问答、指向与提醒落在实际材料及其解释上。保留有用的重点标记，不用粗涂鸦纹理、草稿纸张和无意义修改痕迹制造视觉感。按受众调整，不固定色板、卡片数、人物出场或每概念页数。
 
