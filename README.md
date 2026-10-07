@@ -97,7 +97,7 @@
 <a id="skill"></a>
 ## 使用视觉教学 Skill
 
-`build-visual-teaching` 是一个包含说明与参考文档的 Skill 目录。它组织内容判断、素材使用、视觉参考和交付检查；生成图片或导出文件仍需要宿主提供相应工具。
+`build-visual-teaching` 是一个包含说明、参考文档与原始视觉素材的 Skill 目录。它组织内容判断、素材使用、视觉参考和交付检查；生成图片或导出文件仍需要宿主提供相应工具。
 
 ### 1. 取得仓库
 
@@ -106,7 +106,7 @@ git clone https://github.com/qihangzhang-272/ai-native-teaching-kit.git
 cd ai-native-teaching-kit
 ```
 
-没有 Git 也可以从仓库 **Code → Download ZIP** 下载并解压。先阅读 [SKILL.md](skills/build-visual-teaching/SKILL.md)，复制时保留整个目录与 `references/`。
+没有 Git 也可以从仓库 **Code → Download ZIP** 下载并解压。先阅读 [SKILL.md](skills/build-visual-teaching/SKILL.md)，复制时保留整个目录与 `references/`、`assets/`、`examples/`。其中已附本人头像与黑鸟原参考、两张认可基准图及两页原 PPT；读取方式见[素材说明](skills/build-visual-teaching/assets/README.md)，独立 ZIP 构建见[分发说明](releases/README.md#单独技能包)。
 
 ### 2. 选择加载方式
 
@@ -154,7 +154,9 @@ Windows PowerShell、装到其他项目、加载检查与排错见[详细安装�
 
 先给出：要回答的问题、采用的材料、页面安排及仍缺的信息。
 确认后制作：课件、配套讲稿和可继续编辑的正文。
-视觉：文字承担解释，配图帮助理解；沿用我提供的参考。
+视觉：文字承担解释，配图帮助理解；沿用包内认可基准图与我提供的参考。
+复现本课程人物时，实际打开 assets/user-lecture-reference.jpg、两张 PNG 和 examples/approved-slides.pptx；路径相对已加载的 SKILL.md。
+保持浅净背景与清楚对比；头像保留身份，新页不照搬原图周围标语、粗涂鸦或纸张纹理。
 验收：打开最终导出文件，检查文字、图像、来源、链接和备注。
 ```
 
@@ -174,7 +176,9 @@ ai-native-teaching-kit/
 ├── skills/build-visual-teaching/
 │   ├── SKILL.md                  # 可独立复用的教学制作方法
 │   ├── references/               # 结构、素材、视觉与验收细则
-│   └── LICENSE                   # Skill 的 MIT 许可
+│   ├── assets/                   # 原头像、黑鸟与两张认可基准图
+│   ├── examples/approved-slides.pptx # 原课第 86、90 页实例
+│   └── LICENSE                   # Skill 方法文字的 MIT 许可
 ├── docs/                         # 中英文 Skill 安装与排错
 ├── sources/                      # 来源说明与引用清单
 ├── assets/readme/                # 封面与公开成品预览

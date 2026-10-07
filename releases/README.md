@@ -42,4 +42,19 @@ b51920a913548f5cc9887a7c776a144f5a81c13fd8d609f554f4eee77d541082  ai-native-teac
 
 GitHub 自动生成的 Source code 压缩包是仓库快照，不含课程二进制附件。请从 Release 的 Assets 区选择上述七件文件，按需要下载。
 
-仓库跟踪文本、来源、技能与预览，PPTX、PDF、DOCX 和课程源 ZIP 放在 Release 中。发布后应逐件核对下载、格式与哈希，见[检查清单](../RELEASE-CHECKLIST.md)。
+仓库跟踪文本、来源、技能与预览；除技能内经过检查的两页 PPT 实例外，完整 PPTX、PDF、DOCX 和课程源 ZIP 放在 Release 中。发布后应逐件核对下载、格式与哈希，见[检查清单](../RELEASE-CHECKLIST.md)。
+
+## 单独技能包
+
+`skills/build-visual-teaching/` 自带三张本人 / 黑鸟原参考、两页原 PPT 实例、来源校验值和使用说明。完整复制这个目录即可使用；它不依赖课程 ZIP、维护者的私人路径或在线图片链接。仓库仅为这份经过检查的两页 PPT 设置 `.gitignore` 例外，完整课件仍通过上述 Release 分发。
+
+从仓库根目录打包（Python 3.9 或更新版本，无第三方依赖）：
+
+```bash
+python scripts/package_skill.py --check-only
+python scripts/package_skill.py
+```
+
+生成 `dist/build-visual-teaching.zip` 与 `dist/build-visual-teaching.zip.sha256`。ZIP 内顶层是 `build-visual-teaching/`，包含完整 `references/`、`assets/` 和 `examples/`；解压后按[安装指南](../docs/skill-setup.md)复制目录。脚本在打包前检查原图校验值与技能内部相对文件链接；缺图或链接越出技能目录会停止打包。
+
+这是仓库修订后的独立打包方式，v1.1.0 的历史 Release 附件没有被覆盖，也没有声称已发布新的技能 ZIP。后续发布应附本次构建的 ZIP 和校验值，并在空目录解压验证。

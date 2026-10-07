@@ -59,6 +59,14 @@ Copy-Item -Recurse skills/build-visual-teaching .claude/skills/
 .agents/skills/build-visual-teaching/
 ├── SKILL.md
 ├── LICENSE
+├── assets/
+│   ├── README.md
+│   ├── manifest.json
+│   ├── user-lecture-reference.jpg
+│   ├── writing-plans-personalized.png
+│   └── ladder-personalized.png
+├── examples/
+│   └── approved-slides.pptx
 └── references/
     ├── teaching-depth.md
     ├── visual-benchmarks.md
@@ -72,7 +80,8 @@ Copy-Item -Recurse skills/build-visual-teaching .claude/skills/
 ```text
 请使用 build-visual-teaching，但先不要修改或生成文件。
 说明你实际读取的 SKILL.md 路径，以及 references 中与教学结构、素材和验收有关的文件。
-然后列出制作一个教学小节前，需要我提供哪些资料。
+再实际打开 assets/user-lecture-reference.jpg、两张认可 PNG 和 examples/approved-slides.pptx；路径相对 SKILL.md 所在目录。
+确认本人和黑鸟可读后，列出制作本教学小节还需哪些主题材料，不重复索要包内头像。
 ```
 
 检查实际读取路径是否指向你放置的版本。能列出名字不等于已完成一次产物测试；后续仍需用小节验证文字深度、图文关系与导出结果。
@@ -85,7 +94,7 @@ Copy-Item -Recurse skills/build-visual-teaching .claude/skills/
 | 受众 | 已有知识、希望学会什么、使用场景 |
 | 范围 | 一个概念或一个小节，先不要求整门课 |
 | 输出 | PPTX / PDF / 讲稿 / Markdown 等实际需要的格式 |
-| 视觉参考 | 可使用的版式、配图、角色素材；没有就明确从新基准开始 |
+| 视觉参考 | 复现本课程先用包内 assets/ 与 examples/；其他主题可补充获准参考 |
 | 检查要求 | 来源、内容、版面、备注、链接与最终导出文件 |
 
 在[首页调用示例](../README.md#skill)中替换自己的材料与受众。不要把课程角色图当作默认开放的通用肖像素材；是否可再用，应按项目许可范围判断。
